@@ -1,16 +1,21 @@
 /** @type {import('tailwindcss').Config} */
 export default {
-  content: ["./**/*.{html,js}"],
+  content: ["./**/*.{html,js}", 
+    "./node_modules/flowbite/**/*.js"
+],
   theme: {
+  
     fontFamily: {
       'sans': ['Noto Sans, sans-serif;']
     },
     extend: {
       backgroundImage: {
-        'my' : "url('/src/img/mosaic.png')"
+        'dark' : "url('/src/img/mosaic.png')"
       }
     },
   },
-  plugins: [],
+  plugins: [
+    require('flowbite/plugin'),
+  ],
 }
 
