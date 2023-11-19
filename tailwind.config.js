@@ -2,7 +2,14 @@
 export default {
   content: ["./**/*.{html,js}"],
   theme: {
-    extend: {},
+    fontFamily: {
+      'sans': ['Noto Sans, sans-serif;']
+    },
+    extend: {
+      backgroundImage: {
+        'my' : "url('/src/img/mosaic.png')"
+      }
+    },
   },
   plugins: [],
 }
