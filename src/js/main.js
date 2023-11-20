@@ -16,7 +16,7 @@ document.getElementById("yeay").addEventListener("click", () => {
 
 
 new Typed('#element', {
-  strings: ['<h2>"Abaikan suara yang menghalangimu, fokuslah pada tujuan dengan konsisten dalam meraih kesuksesan."</h2>', '<h2>"Menjadi konsisten adalah kunci sukses."</h2>'],
+  strings: ['<h2>"Konsisten akan membawamu pada tujuan."</h2>', '<h2>"Menjadi konsisten adalah kunci sukses."</h2>'],
   typeSpeed: 30,
   loop: true,
 });
